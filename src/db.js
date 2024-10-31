@@ -131,49 +131,7 @@ VALUES(
         4
     )
     `)
-  //     client.query(`INSERT INTO cikkek (cikkid, cim, datum, szerzoid, szoveg, kateid) VALUES( DEFAULT,'Bejelentette visszavonulását Rafael Nadal ','2024-10-11, 17:36:48', 3,'A 22-szeres Grand Slam-tornagyőztes spanyol klasszis teniszező közösségi oldalán egy négyperces videóban közölte: a Davis-kupa novemberi mérkőzései után befejezi 23 éve tartó profi karrierjét.', 2)
-  //       `)
 
-  //       client.query(`INSERT INTO
-  //     cikkek (cikkid, cim, datum, szerzoid, szoveg, kateid)
-  // VALUES(
-  //         DEFAULT,
-  //         'Meghalt Frank Stella, Amerika egyik legnevesebb művésze',
-  //         '2024-05-05, 10:16:20',
-  //         2,
-  //         'Meghalt Frank Stella amerikai festő- és szobrászművész, aki az 1950-es évektől kezdve folyamatosan felszínen tudott maradni, és meg tudott újulni, a háború utáni absztrakt mozgalom vezéregyénisége volt. A nem konvencionális geometriájú vásznakkal próbálta elmosni a határt a festészet és a szobrászat között, halálát limfóma okozta. 87 éves volt.',
-  //         3)
-  //         `)
-
-  //         client.query(`INSERT INTO
-  //     cikkek (cikkid, cim, datum, szerzoid, szoveg, kateid)
-  // VALUES(
-  //         DEFAULT,
-  //         'Csökkentené a migrációs áradatot az EU',
-  //         '2017-02-05, 19:58:40',
-  //         3,
-  //         'Az uniós tagországok vezetői elsődleges fontosságú feladatként nevezték meg Líbia stabilitásának elősegítését a Máltán megtartott pénteki informális csúcstalálkozón elfogadott nyilatkozatukban. ',
-  //         1)
-  //           `)
-  //           client.query(`INSERT INTO
-  //     cikkek (cikkid, cim, datum, szerzoid, szoveg, kateid)
-  // VALUES(
-  //         DEFAULT,
-  //         'Spanyolország tizenegyesekkel nyerte a Nemzetek Ligáját!',
-  //         '2023-06-19, 08:54:40',
-  //         3,
-  //         'A spanyol válogatott nyerte a labdarúgó Nemzetek Ligáját, miután a vasárnapi döntőben gól nélküli rendes játékidőt és hosszabbítást követően, tizenegyespárbajban verte Horvátországot. ',
-  //         1)`)
-  // client.query(`INSERT INTO
-  //      cikkek (cikkid, cim, datum, szerzoid, szoveg, kateid)
-  //  VALUES(
-  //         DEFAULT,
-  //         'Egy osztrák művész alkotásai megváltoztatják az elképzelésünket a szobrászatrol',
-  //         '2023-06-11, 20:02:10',
-  //         2,
-  //         ' Erwin Wurm Ausztria egyik legjelentősebb művésze, akit a 2017-es velencei biennálé osztrák pavilonja miatt nagyra értékelnek.  Munkái teljesen megzavarják az ismerős, értelmes dolgokról alkotott elképzelésünket. Humorban és kísérletezésben bővelkedő munkásságában a művész gyakran hétköznapi tárgyakat képzel újra, emberi tulajdonságokkal ruházva fel őket.',
-  //         3)
-  //   `)
 }
 
 export async function updateArticle(cikkid, cim) {
@@ -212,7 +170,6 @@ export async function addFavorite(felhid, cikkid) {
 //   const favorit= await client.query(`UPDATE kedvencek SET'${felhid}' WHERE cikkid='${id}'`)
 // }
 
-// export async function deleteFavorite
 
 //  Hozzaszolasok
 
